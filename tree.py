@@ -6,7 +6,7 @@ wn = tu.Screen()
 wn.bgcolor("black")
 wn.title("Fractal Tree Pattern")
 roo.left(90)
-roo.speed(20)
+roo.speed(0)
 
 
 def draw(l):
