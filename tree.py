@@ -1,15 +1,15 @@
 import turtle as tu
 
 
-roo = tu.Turtle()  # Turtle object
-wn = tu.Screen()  # Screen Object
-wn.bgcolor("black")  # Screen Bg color
+roo = tu.Turtle()
+wn = tu.Screen()
+wn.bgcolor("black")
 wn.title("Fractal Tree Pattern")
-roo.left(90)  # moving the turtle 90 degrees towards left
-roo.speed(20)  # setting the speed of the turtle
+roo.left(90)
+roo.speed(20)
 
 
-def draw(l):  # recursive function taking length 'l' as argument
+def draw(l):
     if(l < 10):
         return
     else:
